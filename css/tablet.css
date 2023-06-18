@@ -1,0 +1,86 @@
+@media only screen and (min-width: 737px) and (max-width: 774px) {
+  .sothich-list {
+    grid-template-columns: repeat(2, 50px);
+    gap: 20px;
+  }
+}
+
+@media only screen and (min-width: 740px) and (max-width: 1024px) {
+  .banner-img {
+    width: 100%;
+    margin: auto;
+  }
+
+  .job-info {
+    grid-template-columns: repeat(2, 35%);
+    margin: auto;
+    padding: 20px;
+  }
+
+  .chungchi-giaithuong {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px 30px;
+  }
+
+  .chungchi-giaithuong h1 {
+    justify-items: start;
+    margin-bottom: 10px;
+  }
+
+  .none-h1-m {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  .chungchi-item {
+    display: block;
+    padding: 10px 0;
+  }
+
+  .cc-item2 {
+    padding-left: 15px;
+  }
+
+  .cc-item3 {
+    border-top: #d6c08d8e solid 1px;
+    margin-top: 30px;
+    padding-top: 40px;
+    grid-column: 1 / 2;
+  }
+  .cc-item4 {
+    border-top: #d6c08d8e solid 1px;
+    margin-top: 30px;
+    padding-top: 40px;
+  }
+
+  .chungchi-img {
+    width: 90%;
+  }
+
+  .chungchi-item ul,
+  .chungchi-item ul li {
+    font-size: 15px;
+  }
+
+  .du-an {
+    grid-template-columns: repeat(3, 30%);
+    font-size: 15px;
+    align-content: center;
+  }
+
+  .du-an-date {
+    height: fit-content;
+  }
+
+  /* .du-an-title {
+    height: 80px;
+  } */
+
+  /* .du-an-item {
+    border: #cfcfcf solid 1px;
+  } */
+
+  .du-an-img {
+    width: 100%;
+  }
+}
