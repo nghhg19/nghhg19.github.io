@@ -117,14 +117,14 @@
 .scopes .flex {
   padding: 0;
   padding-left: 15px;
-  width: 600px;
+  width: 585px;
   justify-content: space-between;
 }
 
 .scopes ul {
   list-style: none;
   padding-left: 0;
-  width: 300px;
+  width: 250px;
 }
 .scopes ul li {
   padding: 10px 0;
